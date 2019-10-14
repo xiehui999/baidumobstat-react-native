@@ -3,12 +3,12 @@ version = JSON.parse(File.read("package.json"))["version"]
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "RCTBaiduMobStat"
+  spec.name         = "RNBaiduMobStat"
   spec.version      = version
-  spec.summary      = "A short description of RCTBaiduMobStat."
+  spec.summary      = "A short description of RNBaiduMobStat."
   spec.homepage     = "https://github.com/BaiduMobileAnalysis/baidumobstat-react-native"
   spec.license      = "MIT"
-  spec.author             = { "wwwlin" => "xyuan@qq.com" }
+  spec.author             = { "xinfang" => "test@gmail.com" }
   spec.ios.deployment_target = "9.0"
   spec.tvos.deployment_target = "9.0"
   spec.source         = { :git => 'https://github.com/BaiduMobileAnalysis/baidumobstat-react-native.git', :tag => "v#{spec.version}"}
